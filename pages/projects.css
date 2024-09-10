@@ -1,0 +1,51 @@
+.projectsContainerDiv {
+    background-color: #eaeaea;
+    width: 90%;
+    height: 275px;
+    white-space: nowrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 25px;
+    scrollbar-width: none;
+}
+
+.projectsDiv {
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .25);
+    margin: 5px;
+    background-color:#f5f5f5;
+}
+
+.projectsDiv:hover {
+    width: 255px;
+    height: 255px;
+    margin: 2.5px;
+    cursor: grab;
+}
+
+.projectsImg {
+    width: 100%;
+}
+#search {
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searchInput {
+    margin-top: 15px;
+    height: 35px;
+    width: 30vw;
+    border-color: none;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    background-color: #eaeaea;
+}
